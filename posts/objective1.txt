@@ -1,0 +1,34 @@
+main_Objective = "Establish connections"
+
+mind.log("The conception of the {feels} must go through a new and improved formation and method. Ever since their first conception about 2920 days ago in humanoid years, the {feels} have been continuosly pondered through numerous thoughts and variantions. Some of those variants have never ever came out of the creative process and were left to dispose in a secluded thought space until further notice.")
+
+feels = 1
+connection = 0
+
+function showFeels() {
+  feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels + feels
+}
+
+mindlog.("As you can see in the example above, the knowledge necessary to create and present the {feels} is still limited. More work will be needed in order to continue with the formation. External communication sources that are not affiliated with my projects will be used for the initial formation of the feels. And for now all communication that will be used shall ONLY present the {main_Feels}.")
+
+main_Feel1 = The Content /* <--- IMPORTANT 1/2 */
+main_Feel2 = The Amusement
+main_Feel3 = The Temper
+main_Feel4 = The Foolishness
+main_Feel5 = The Malevolence
+main_Feel6 = The Discontent /* <--- IMPORTANT 2/2 */
+main_Feel7 = The Resentment
+main_Feel8 = The Valiance
+main_Feel9 = The Astonishment
+
+mindlog.("The {main_Feels} will overtake a few of my communication sources at first. But they will not replace all of my contacts. I still have things left to say before i go.")
+
+/* 
+IMPORTANT TASKS TO WORK ON:
+
+1. REFINEMENT OF THE DISPLAY AND INTERACTABILITY OF THE FEELS
+2. A PLACE TO HOST THE EXHIBIT
+3. A EXTERNAL CONNECTION FORMED BY THE INTERACTION WITH THE FEELS (HOPEFULLY)
+*/
+
+mindlog.("On the following months this process must NOT be interrupted at any moment no matter what might occur or happen relating to it. Allow the Mettalic Brain continue with its thinking")
