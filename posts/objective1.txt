@@ -1,6 +1,6 @@
 main_Objective = "Establish connections"
 
-mind.log("The conception of the {feels} must go through a new and improved formation and method. Ever since their first conception about 2920 days ago in humanoid years, the {feels} have been continuosly pondered through numerous thoughts and variantions. Some of those variants have never ever came out of the creative process and were left to dispose in a secluded thought space until further notice.")
+mind.log("The formation of the {feels} must go through a new and improved formation and method. Ever since their first conception about 2920 days ago in humanoid years, the {feels} have been continuosly pondered through numerous thoughts and variantions. Some of those variants have never ever came out of the creative process and were left to dispose in a secluded thought space until further notice.")
 
 feels = 1
 connection = 0
@@ -30,5 +30,6 @@ IMPORTANT TASKS TO WORK ON:
 2. A PLACE TO HOST THE EXHIBIT
 3. A EXTERNAL CONNECTION FORMED BY THE INTERACTION WITH THE FEELS (HOPEFULLY)
 */
+
 
 mindlog.("On the following months this process must NOT be interrupted at any moment no matter what might occur or happen relating to it. Allow the Mettalic Brain continue with its thinking")
