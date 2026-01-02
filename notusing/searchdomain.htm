@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+<style>
+body {
+  margin:0;
+  direction:ltr;
+  unicode-bidi:embed;
+}
+
+#globalwrap {
+  margin:0;
+  padding:0;
+  position:relative;
+  width:100%;
+  font-size: 12px;
+  z-index:0;
+}
+#themaincontetn {
+  width:100%;  
+  float:right;
+  margin: 0 0 0.6em -12.2em;
+}
+div {
+  unicode-bidi:isolate;
+  display:block;
+}
+.thecontennt {
+  background:red;
+  margin: 2.8em 0 0 12.2em;
+}
+.theig {
+  padding: 1em;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  color: #000;
+  border: 1px solid #aaa;
+  line-height: 1.5em;
+}
+/* totally not borrowed from mirahaze.org */ 
+</style>
+</head>
+<body>
+
+<div id="globalwrap">
+  <div id="themaincontetn">
+  <div class="thecontennt theig">text</div>
+  </div>
+  <a>dirt  rat</a>
+</div>
+
+</body>
+</html>
+
+
