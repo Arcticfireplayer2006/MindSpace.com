@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>contact?</title>
+<style>
+#dialog_1 {
+  opacity:0;
+  animation-name:dia1;
+  animation-duration:20s;
+  animation-delay:5s;
+}
+
+@keyframes dia1 {
+  0% {opacity:0;}
+  50% {opacity:1;}
+  100% {opacity:0;}
+}
+#dialog_2 {
+  opacity:0;
+  animation-name:dia2;
+  animation-duration:20s;
+  animation-delay:30s;
+}
+
+@keyframes dia2 {
+  0% {opacity:0;}
+  50% {opacity:1;}
+  100% {opacity:0;}
+}
+#dialog_3 {
+  opacity:0;
+  animation-name:dia3;
+  animation-duration:25s;
+  animation-delay:50s;
+}
+
+@keyframes dia3 {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+#thebrain {
+  opacity:0;
+  animation-name:brin;
+  animation-duration:20s;
+  animation-delay:55s;
+}
+
+@keyframes brin {
+  0% {opacity:0;}
+  100% {opacity:0.8;}
+}
+#back {
+  background:white;
+  animation-name:backish;
+  animation-delay:75s;
+  animation-duration:0.1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes backish {
+  0% {background:url("images/backgroundhost.gif");}
+  10% {backgroud:url("images/bigmanaged.gif");}
+  100% {backgroud:url("images/bigmanaged.gif");}
+}
+#sides {
+  background:url("images/sidehosting.gif");
+  position: relative;
+  animation-name: side;
+  animation-duration: 0.1s;  
+  animation-fill-mode: forwards;
+  animation-delay:75s;
+}
+
+@keyframes side {
+  0% {}
+  100% {background: white;}
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;" id="back">
+
+<div id="sides" width="100%"><img src="spacer.gif" width="10px" height="100px"></div>
+
+<img id="thebrain" src="images/thehost.gif" width="100%" style="position:relative;z-index:-1;top:30px;">
+
+<table width="100%" border="0" style="margin-top:200px;z-index:1;position:absolute;top:20px;" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td align="center"><img id="dialog_1" src="images/messagehost10.gif" width="100%"></td>
+    <td align="center"><img id="dialog_3" src="images/messagehost30.gif" width="100%"></td>
+    <td align="center"><img id="dialog_2" src="images/messagehost20.gif" width="100%"></td>
+  </tr>
+</tbody>
+</table>
+
+<div id="sides" width="100%" ><img src="spacer.gif" width="10px" height="100px"></div>
+
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="audiohosting.mp3" type="audio/mpeg">
+</audio>
+<script>
+var communication = document.getElementById("myAudio"); 
+
+  communication.play(); 
+
+</script>
+
+</body>
+</html>

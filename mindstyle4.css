@@ -1,0 +1,91 @@
+body {
+  background:#EEEEEE;
+}
+body, p, table, td, tr {
+  font-size:12px;
+  font-family: verdana, arial;
+  color:#000000;
+}
+.tablebordering {
+  background:#000000;
+}
+.menubars {
+  background:#AAAAAA;
+}
+a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+}
+a:link {
+  color:#004447;
+}
+a:visited {
+  color:#004447;
+}
+a:hover {
+  color:white;
+}
+a:active {
+  color:white;
+}
+.cleartabale {
+  background:#EEEEEE;
+}
+.welcome {
+  background:#888888;
+  font-family: verdana;
+  color:#000000;
+}
+.dataheader {
+  font-size:10.6667px;
+  color:#000000;
+  background:#AAAAAA;
+  font-family:verdana;
+}
+.darkesttabale {
+  background:#CCCCCC;
+  color:#000000;
+}
+.lightesttabale {
+  background:#EEEEEE;
+  color:#000000;
+}
+.alternatetabale {
+  background:#FFFFFF;
+}
+.forumtittle {
+  background:#AAAAAA;
+}
+.forumscripp {
+  font-size: 10.6667px;
+}
+.thredtotal {
+  font-size:10.6667px;
+  background:#DDDDDD;
+}
+.psottotal {
+  font-size:10.6667px;
+  background:#DDDDDD;
+}
+.psottime {
+  font-size:10.6667px;
+  font-style:oblique;
+  text-align:center;
+  background:#CCCCCC;
+}
+.catusandforum {
+  background:#AAAAAA;
+  font-size:10.6667px;
+}
+.smool {
+  font-size: 10.6667px;
+  font-family: verdana, arial;
+}
+.formalboxes {
+  font-family: verdana, arial, sans-serif;
+  background:#CCCCCC;
+  color:#000000;
+}
+.butoness {
+  font-family: verdana, arial, sans-serif;
+  color:#004447;
+}

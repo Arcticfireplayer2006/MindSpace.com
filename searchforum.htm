@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search</title>
+<link rel="stylesheet" href="mindstyle4.css">
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" background="backgroundforum.gif">
+<span class="onbody">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+  <tr>
+    <td bgcolor="#FFFFFF" colspan="2">
+      <img src="spacer.gif" height="1" width="1" style="display:block;" alt="spacer">
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#66CC99" colspan="2" background="bannertop.gif">
+      <a href="thehostingplace.htm">
+      <img src="images/logo3.gif" height="35" width="295" hspace="10" vspace="2" alt="logo">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" colspan="2">
+      <img src="spacer.gif" height="1" width="1" style="display:block;" alt="spacer">
+    </td>
+  </tr>
+  <tr>
+    <td nowrap  bgcolor="#005547" colspan="2">
+      <table cellpadding="2" cellspacing="0">
+      <tbody>
+        <tr>
+          <td nowrap>
+<font face="verdana,arial,helvetica" size="2" style="text-decoration:none;font-family:Geneva, Verdana, Arial, Helvetica; font-size:12px;color:#FFFFFF;"> Discussion Forum </font>
+
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#99CCFF" colspan="2">
+      <img src="smiley.gif" height="1" width="1" style="display:block;" alt="spacer">
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+</span>
+
+<table width="95%" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td class="tablebordering">
+      <table cellpadding="1" cellspacing="1" width="100%">
+      <tbody>
+        <tr>
+          <td class="menubars" align="center">
+<a href="threads.htm">Main Index</a> | <a href="searchforum.htm">Search</a> | <a href="newuserforum.htm">New User</a> | <a href="loginforum.htm">Login</a> | <a href="activityforum.htm">Who's Online</a> | <a href="faqforum.htm">FAQ</a>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+
+<table width="95%" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td class="tablebordering">
+      <table cellpadding="1" cellspacing="1" width="100%">
+      <tbody>
+        <tr>
+          <td class="dataheader">
+<b>Search</b>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<table width="95%" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td class="tablebordering">
+<table width="100%" cellpadding="1" cellspacing="1">
+<form method="POST" action="dosearch.pl"></form>
+<input type="hidden" name="cat" value>
+<tbody>
+  <tr class="darkesttabale">
+    <td>
+Fill out the information below to search through the forums.
+    </td>
+  </tr>
+  <tr class="lightesttabale">
+    <td>
+<br>
+Forum or Category to search
+<br>
+<select name="forum" class="formalboxes">
+<option value="All_Forums">All Forums</option>
+<option value="CatSearch-1">*Forums -----</option>
+<option value="curious">&nbsp;&nbsp;&nbsp;Curious About MindSpace?</option>
+<option value="forum_beginners">&nbsp;&nbsp;&nbsp;Beginner's Forum</option>
+<option value="forum_troubleshooting">&nbsp;&nbsp;&nbsp;General Troubleshooting</option>
+<option value="forum_webdesign">&nbsp;&nbsp;&nbsp;Web Design</option>
+<option value="3rdparty">&nbsp;&nbsp;&nbsp;3rd Party Software & Scripts</option>
+<option value="forum_multimedia">&nbsp;&nbsp;&nbsp;Multimedia</option>
+<option value="forum_ecommerce">&nbsp;&nbsp;&nbsp;E-Commerce</option>
+<option value="forum_programming">&nbsp;&nbsp;&nbsp;Programming</option>
+<option value="forum_promotion">&nbsp;&nbsp;&nbsp;Promotion</option>
+<option value="forum_offtopic">&nbsp;&nbsp;&nbsp;Offtopic Discussion</option>
+<option value="betatesting">&nbsp;&nbsp;&nbsp;* Beta Testing *</option>
+</select>
+<p>
+Words to search for
+<br>
+<input type="text" name="words" size="30" class="formalboxes">
+</p>
+<p>
+Search options
+<br>
+<select name="Match" class="formalboxes">
+<option value="Entire Phrase">Entire Phrase</option>
+<option value="And">And</option>
+<option value="Or">Or</option>
+<option value="Username">By Username</option>
+</select>
+</p>
+<p>
+Date Range
+<br>
+<select name="Old" class="formalboxes">
+<option value="1day">Newer than 1 day</option>
+<option value="2days">Newer than 2 days</option>
+<option selected value="1week">Newer than 1 week</option>
+<option value="2weeks">Newer than 2 weeks</option>
+<option value="3weeks">Newer than 3 weeks</option>
+<option value="1month">Newer than 1 month</option>
+<option value="3months">Newer than 3 months</option>
+<option value="6months">Newer than 6 months</option>
+<option value="1year">Newer than 1 year</option>
+<option value="allposts">All posts</option>
+</select>
+<br>
+<br>
+Number of results to show per page.
+<br>
+<input type="text" name="limit" value="25" size="3" class="formalboxes">
+<br>
+</p>
+<p style="margin-bottom:0;">
+<input type="submit" value="Submit" class="butoness">
+</p>
+    </td>
+  </tr>
+</tbody>
+</table>
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+<table width="95%" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td class="tablebordering">
+      <table cellpadding="1" cellspacing="1" width="100%"></table>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+</body>
+</html>

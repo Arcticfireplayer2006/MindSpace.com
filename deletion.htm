@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Viewing list of posts</title>
+<link rel="stylesheet" href="mindstyle4.css">
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" background="backgroundforum.gif">
+<span class="onbody">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+  <tr>
+    <td bgcolor="#FFFFFF" colspan="2">
+      <img src="spacer.gif" height="1" width="1" style="display:block;" alt="spacer">
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#66CC99" colspan="2" background="bannertop.gif">
+      <a href="thehostingplace.htm">
+      <img src="images/logo3.gif" height="35" width="295" hspace="10" vspace="2" alt="logo">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" colspan="2">
+      <img src="spacer.gif" height="1" width="1" style="display:block;" alt="spacer">
+    </td>
+  </tr>
+  <tr>
+    <td nowrap  bgcolor="#005547" colspan="2">
+      <table cellpadding="2" cellspacing="0">
+      <tbody>
+        <tr>
+          <td nowrap>
+<font face="verdana,arial,helvetica" size="2" style="text-decoration:none;font-family:Geneva, Verdana, Arial, Helvetica; font-size:12px;color:#FFFFFF;"> Discussion Forum </font>
+
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#99CCFF" colspan="2">
+      <img src="spacer.gif" height="1" width="1" style="display:block;" alt="spacer">
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+</span>
+
+<table width="95%" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td class="tablebordering">
+      <table cellpadding="1" cellspacing="1" width="100%">
+      <tbody>
+        <tr>
+          <td class="menubars" align="center">
+<a href="threads.htm">Main Index</a> | <a href="searchforum.htm">Search</a> | <a href="newuserforum.htm">New User</a> | <a href="loginforum.htm">Login</a> | <a href="activityforum.htm">Who's Online</a> | <a href="faqforum.htm">FAQ</a>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+
+<table width="95%" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td class="tablebordering">
+      <table cellpadding="1" cellspacing="1" width="100%">
+      <tbody>
+        <tr class="darkesttabale">
+          <td>
+<table width="100%">
+<tbody>
+  <tr>
+    <td valign="top" colspan="2">
+<a href="threads.htm">Forums</a> >> <b>Curious About MindSpace?</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+<a href="infoforum.htm">Forum information</a>
+    </td>
+    <td align="right" valign="bottom">
+<a href=""><img src="forumimages/newpost.gif" alt="Make a new post" height="17" width="50"></a>
+<img src="forumimages/previousoff.gif" alt="*" height="17" width="68">
+<a href="threads.htm"><img src="forumimages/index.gif" alt="Main Index" height="17" width="56"></a>
+<a href=""><img src="forumimages/nexton.gif" alt="Next page" height="17" width="49"></a>
+<a href=""><img src="forumimages/expandedon.gif" alt="Expanded Threads" height="17" width="77"></a>
+<img src="forumimages/collapseoff.gif" alt="*" height="17" width="75">
+    </td>
+  </tr>
+</tbody>
+</table>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<table width="95%" align="center" cellpadding="4" cellspacing="0">
+<form method="POST" action="postlist.pl"></form>
+<tbody>
+  <tr>
+    <td align="left">
+      <input type="HIDDEN" name="cat" value>
+      <input type="HIDDEN" name="board" value="curious">
+      <input type="HIDDEN" name="page" value="0">
+      <input type="HIDDEN" name="view" value="collapsed">
+      <input type="HIDDEN" name="sb" value="5">
+Show Threads
+      <select name="o" class="formalboxes">
+<option value="1">active in the last day</option>
+<option value="2">active in the last 2 days</option>
+<option value="7">active in the last week</option>
+<option value="14" selected>active in the last 2 weeks</option>
+<option value="21">active in the last 3 weeks</option>
+<option value="31">active in the last month</option>
+<option value="93">active in the last 3 months</option>
+<option value="186">active in the last 6 months</option>
+<option value="365">active in the last year</option>
+<option value="all">from all dates</option>
+      </select>
+      <input type="SUBMIT" value="Change" class="butoness">
+    </td>
+    <form method="POST" action="dosearch.pl"></form>
+    <td align="right">
+      <input type="HIDDEN" name="cat" value>
+      <input type="HIDDEN" name="forum" value="curious">
+      <input type="HIDDEN" name="old" value="allposts">
+Search forum
+      <input type="TEXT" name="words" class="formalboxes">
+      <input type="SUBMIT" value="Search" class="butoness">
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<table width="95%" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td class="tablebordering">
+<table cellpadding="1" cellspacing="1" width="100%">
+<tbody>
+  <tr>
+    <td align="left" width="70%" class="dataheader">
+<a href="deletioncurious=.htm">Subject</a>
+    </td>
+    <td align="left" width="10%" class="dataheader" nowrap>
+<a href="deletioncurious=.htm">Poster</a>
+    </td>
+    <td align="left" width="5%" class="dataheader" nowrap>
+<a href="deletioncurious.htm">Replies</a>
+&nbsp;&nbsp;
+    </td>
+    <td align="left" width="10%" class="dataheader" nowrap>
+<a href="deletioncurious.htm">Last post <img src="forumimages/indicated.gif" height="8" width="7"></a>
+    </td>
+  </tr>
+  <tr class="lightesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">I can't access the web panel</a>
+    </td>
+    <td align="left" nowrap>
+<a href="">spudzz</a>&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+01&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+02/01/05 01:03 AM
+    </td>
+  </tr>
+  <tr class="darkesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">What is this "host message" that keeps popping on my account?</a>
+    </td>
+    <td align="left" nowrap>
+<a href="">Barry. G</a>&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+04&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+02/01/05 00:38 AM
+    </td>
+  </tr>
+  <tr class="lightesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">MindSpace vs. OrangeDomain</a>
+    </td>
+    <td align="left" nowrap>
+<a href="">fantasyanime dude</a>&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+03&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+01/31/05 07:40 PM
+    </td>
+  </tr>
+  <tr class="darkesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">is MS good?</a>
+    </td>
+    <td align="left" nowrap>
+<a href="">theGUIguy</a>&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+04&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+01/31/05 06:03 PM
+    </td>
+  </tr>
+  <tr class="lightesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">Opinions on my migration to MindSpace</a>
+    </td>
+    <td align="left" nowrap>
+Anonymous&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+03&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+01/31/05 04:25 PM
+    </td>
+  </tr>
+  <tr class="darkesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">External DNS</a>
+    </td>
+    <td align="left" nowrap>
+Anonymous&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+03&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+01/31/05 01:49 PM
+    </td>
+  </tr>
+  <tr class="lightesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">Bad Costumer Support</a>
+    </td>
+    <td align="left" nowrap>
+Anonymous&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+03&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+01/31/05 11:58 AM
+    </td>
+  </tr>
+  <tr class="darkesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">Who is this new host moderator?</a>
+    </td>
+    <td align="left" nowrap>
+<a href="">Addie</a>&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+16&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+01/31/05 09:38 AM
+    </td>
+  </tr>
+  <tr class="lightesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">Domain Registration - Private info</a>
+    </td>
+    <td align="left" nowrap>
+<a href="">protobot</a>&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+01&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+01/31/05 06:42 AM
+    </td>
+  </tr>
+  <tr class="darkesttabale">
+    <td align="left">
+<img src="forumimages/paste.gif" alt="." height="10" width="11" hspace="5">
+<a href="">Need a little help y'all</a>
+    </td>
+    <td align="left" nowrap>
+Anonymous&nbsp;&nbsp;
+    </td>
+    <td nowrap align="center">
+05&nbsp;&nbsp;&nbsp;
+    </td>
+    <td nowrap align="left">
+01/31/05 04:06 AM
+    </td>
+  </tr>
+</tbody>
+</table>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<table width="95%" align="center">
+<tbody>
+  <tr>
+    <td align="center"class="cleartabale">
+      <span class="onbody">
+Pages: 1 <a href="">2</a> <a href="">3</a>
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td align="right">
+      <form method="POST" action="jumper.pl">
+      <input type="hidden" name="cat" value>
+      <span class="onbody">Jump to</span>
+      <select name="board" class="formalboxes">
+<option name="CATJUMP-1">*Forums* -----</option>
+<option name="curious" selected>&nbsp;&nbsp;&nbsp;Curious About MindSpace? </option>
+<option name="forum_beginners">&nbsp;&nbsp;&nbsp;Beginner's Forum </option>
+<option name="forum_troubleshooting">&nbsp;&nbsp;&nbsp;General Troubleshooting </option>
+<option name="forum_webdesign">&nbsp;&nbsp;&nbsp;Web Design </option>
+<option name="3rdparty">&nbsp;&nbsp;&nbsp;3rd Party Software & Scripts </option>
+<option name="forum_multimedia">&nbsp;&nbsp;&nbsp;Multimedia </option>
+<option name="forum_ecommerce">&nbsp;&nbsp;&nbsp;E-Commerce </option>
+<option name="forum_programming">&nbsp;&nbsp;&nbsp;Programming </option>
+<option name="forum_promotion">&nbsp;&nbsp;&nbsp;Promotion </option>
+<option name="forum_offtopic">&nbsp;&nbsp;&nbsp;Offtopic Discussion </option>
+<option name="betatesting">&nbsp;&nbsp;&nbsp;* Beta Testing * </option>
+      </select>
+      <input type="submit" name="Jump" value="Jump" class="butoness">
+      </form>
+    </td>
+  </tr>
+</tbody>
+</table>
+<br>
+<table width="95%" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+  <tr>
+    <td class="tablebordering">
+      <table cellpadding="1" cellspacing="1" width="100%"></table>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+host {
+  color:black;
+  text-shadow:2px 2px black,-2px -2px black, 2px -2px black,-2px 2px black;
+  font-weight: bolder;
+  font-family: Geneva, Arial;
+  animation-name:hosting;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hosting {
+  0% {text-shadow:2px 2px black,-2px -2px black, 2px -2px black,-2px 2px black;}
+  10% {text-shadow:20px 2px black,-23px -2px black, 100px -111px black,-2px 2px black;}
+  20% {text-shadow:2px 2px black,-177px -2px black, 23px -24px black,-2px 2px black;}
+  30% {text-shadow:20px 2px black,-111px -2px black, 2px -2px black,-2px 2px black;}
+  40% {text-shadow:92px 32px black,-112px -2px black, 133px -177px black,-62px 32px black;}
+  50% {text-shadow:2px 72px black,-2px -2px black, 42px -12px black,-2px 2px black;}
+  60% {text-shadow:20px 12px black,-22px -2px black, 12px -12px black,-2px 32px black;}
+  70% {text-shadow:19px 2px black,-13px -12px black, 12px -2px black,-2px 12px black;}
+  80% {text-shadow:20px 22px black,-25px -22px black, 12px -2px black,-12px 2px black;}
+  90% {text-shadow:12px 2px black,-2px -2px black, 2px -2px black,-2px 2px black;}
+  100% {text-shadow:12px 12px black,-23px -24px black, 12px -12px black,-2px 12px black;}
+}
+#imglitchA {
+  box-shadow: 5px 0px black, -5px 0px black, 0px 10px black, 0px -13px black;
+  animation-name:imager;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes imager {
+  0% {box-shadow: 35px 10px black, -65px 0px green, 0px 10px black, 0px -73px black;}
+  10% {box-shadow: 85px 80px lime, -45px 0px green, 20px 110px line, -30px -53px green;}
+  20% {box-shadow: -95px -30px green, -75px 0px lime, 0px 10px black, 0px -13px black;}
+  30% {box-shadow: 50px 130px lime, -5px -80px green, 40px 10px black, 0px -13px lime;}
+  40% {box-shadow: 115px 20px green, -65px 0px green, 60px 30px black, 0px -13px black;}
+  50% {box-shadow: 5px 30px green, -65px 0px green, 60px 10px black, -100px -13px lime;}
+  60% {box-shadow: 112px 19px green, -5px 0px green, 0px 10px black, -120px -13px black;}
+  70% {box-shadow: 35px 30px lime, -6px 130px green, 15px -106px green, 20px -13px lime;}
+  80% {box-shadow: 35px 10px lime, -15px 30px green, 40px 10px black, 0px -13px black;}
+  90% {box-shadow: 35px 30px green, -165px 0px black, 0px 10px green, -30px -63px black;}
+  100% {box-shadow: 65px 85px lime, -65px -10px green, 0px 10px black, 02px -13px black;}
+}
+#imglitchB {
+  box-shadow: 5px 0px black, -5px 0px black, 0px 10px black, 0px -13px black;
+  animation-name:imagerb;
+  animation-duration: 0.1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes imagerb {
+  0% {box-shadow: -35px -10px black, -65px 20px purple, 0px 10px purple, 80px -73px purple;}
+  10% {box-shadow: 85px 80px lime, -15px 10px green, 20px 110px line, -30px -53px blue;}
+  20% {box-shadow: -95px -30px cyan, -75px 0px lime, 0px 10px black, 59px 103px blue;}
+  30% {box-shadow: -50px 130px lime, -5px 80px purple, 40px 10px black, 0px -13px purple;}
+  40% {box-shadow: 115px 20px blue, -65px -10px blue, 60px 30px black, -1px -13px black;}
+  50% {box-shadow: -5px -30px purple, 65px 0px blue, 60px 10px black, -100px -13px purple;}
+  60% {box-shadow: -112px 69px blue, -5px 0px green, -100px 30px black, 120px -13px black;}
+  70% {box-shadow: -35px 30px blue, -62px 130px blie, 15px -106px green, 20px -13px purple;}
+  80% {box-shadow: -35px 10px lime, -15px 30px blue, 40px 10px black, 10px 173px powederblue;}
+  90% {box-shadow: -35px 30px green, -165px 10px black, 0px 10px green, -30px -63px violet;}
+  100% {box-shadow: -65px -85px lime, -65px 10px blue, -10px -10px black, 22px -13px white;}
+}
+
+happy {
+  animation-name:happystuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:10s;
+}
+
+@keyframes happystuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:yellow;}
+90%{background:black;color:yellow;}
+91%{background:;}
+100%{background:;}
+}
+
+happy2 {
+  animation-name:happystuff2;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:11s;
+}
+
+@keyframes happystuff2 {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:yellow;}
+90%{background:black;color:yellow;}
+91%{background:;}
+100%{background:;}
+}
+funny {
+  animation-name:funnystuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:11s;
+}
+
+@keyframes funnystuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:#ff9000;}
+90%{background:black;color:#ff9000;}
+91%{background:;}
+100%{background:;}
+}
+angry {
+  animation-name:angrystuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:12s;
+}
+
+@keyframes angrystuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:#ff0000;}
+90%{background:black;color:#ff0000;}
+91%{background:;}
+100%{background:;}
+}
+silly {
+  animation-name:sillystuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:13s;
+}
+
+@keyframes sillystuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:#90ff00;}
+90%{background:black;color:#90ff00;}
+91%{background:;}
+100%{background:;}
+}
+meanie {
+  animation-name:meaniestuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:14s;
+}
+
+@keyframes meaniestuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:#00c000;}
+90%{background:black;color:#00c000;}
+91%{background:;}
+100%{background:;}
+}
+sad {
+  animation-name:sadstuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:15s;
+}
+
+@keyframes sadstuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:#00ffff;}
+90%{background:black;color:#00ffff;}
+91%{background:;}
+100%{background:;}
+}
+jealous {
+  animation-name:jealousstuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:16s;
+}
+
+@keyframes jealousstuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:#0030ff;}
+90%{background:black;color:#0030ff;}
+91%{background:;}
+100%{background:;}
+}
+courageous {
+  animation-name:courageousstuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:17s;
+}
+
+@keyframes courageousstuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:#9000ff;}
+90%{background:black;color:#9000ff;}
+91%{background:;}
+100%{background:;}
+}
+surprised {
+  animation-name:surprisedstuff;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  animation-delay:18s;
+}
+
+@keyframes surprisedstuff {
+10%{background:;}
+49%{background:;}
+50%{background:black;color:#ff00ff;}
+90%{background:black;color:#ff00ff;}
+91%{background:;}
+100%{background:;}
+}
+
+feel {
+  color:red;
+  animation-name:thefeels;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+  text-shadow:2px 2px #F20DF2, -2px 2px #F20DF2, 2px -2px #F20DF2, -2px -2px #F20DF2;
+  font-weight:bolder;
+font-family:Arial;
+}
+
+@keyframes thefeels{
+
+  0%{color:#F20D0D;text-shadow:20px 2px #F20DF2, -12px 2px #F20DF2, -52px -2px #F20DF2, -32px -2px #F20DF2;font-weight:bolder;font-family: Arial;}
+
+  10%{color:#F2800D;text-shadow:12px 2px #800DF2, -12px 2px #800DF2, -42px -2px #800DF2, -2px -2px #800DF2;font-weight:bolder;font-family: Georgia;}
+
+  20%{color:#F2F20D;text-shadow:-12px 2px #0D0DF2, -32px 2px #0D0DF2, 62px -2px #0D0DF2, -70px -2px #0D0DF2;font-weight:none;font-family: sans-serif;}
+
+  30%{color:#80F20D;text-shadow:20px 2px #0DF2F2, -23px 2px #0DF2F2, 2px -5px #0DF2F2, -24px -2px #0DF2F2;font-weight:bolder;font-family: monospace;}
+
+  40%{color:#0DF20D;text-shadow:22px 2px #0DF20D, -62px 2px #0DF20D, 2px -2px #0DF20D, -92px -2px #0DF20D;font-weight:none;font-family: Cursive;}
+
+  50%{color:#0DF2F2;text-shadow:10px 0px #80F20D, -27px 2px #80F20D, 52px -2px #80F20D, -32px -2px #80F20D;font-weight:bolder;font-family: Fantasy;}
+
+  60%{color:#0D0DF2;text-shadow:0px 12px #F2F20D, -22px 2px #F2F20D, 9px -2px #F2F20D, -52px -2px #F2F20D;font-weight:none;font-family: Italic;}
+
+  70%{color:#800DF2;text-shadow:42px 2px #F2800D, -52px 2px #F2800D, 62px -2px #F2800D, -72px -2px #F2800D;font-weight:none;font-family: Helvetica;}
+
+  80%{color:#F20DF2;text-shadow:12px 2px #F20D0D, -52px 2px #F20D0D, 2px -2px #F20D0D, -62px -2px #F20D0D;font-weight:none;font-family: "Lucida Console";}
+}
+#weirdfeel {
+  background: #F20D0D;
+  animation-name:backfeel;
+  animation-duration: 0.1s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes backfeel{
+
+  0%{background:#F20D0D;}
+  10%{background:#F2800D;}
+  20%{background:#F2F20D;}
+  30%{background:#80F20D;}
+  40%{background:#0DF20D;}
+  50%{background:#0DF2F2;}
+  60%{background:#0D0DF2;}
+  70%{background:#800DF2;}
+  80%{background:#F20DF2;}
+  90%{background:url(smiley.gif);}
+
+}
